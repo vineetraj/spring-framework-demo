@@ -26,7 +26,7 @@ public class Main {
         doctor.assist();
         doctor.setQualification("homeo");
 
-        ((ConfigurableApplicationContext)context).close(); //to call predestory()
+        ((ConfigurableApplicationContext) context).close(); //to call predestory()
 //        System.out.println(doctor);
 
 //        Doctor doc = context.getBean(Doctor.class);

@@ -8,6 +8,7 @@
         <outputRelativeToContentRoot value="true" />
         <module name="springFrameworkDemo" />
         <module name="SpringFrameworkDemo" />
+        <module name="spring-framework-demo" />
       </profile>
     </annotationProcessing>
   </component>

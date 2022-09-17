@@ -51,7 +51,7 @@ public class Doctor implements Staff, BeanNameAware {
         // name here refers to the bean's name
         // This method sets the name of the bean in the bean factory that created this bean.
         // it gets called before creating the object
-        System.out.println("set bean method called with name = "+name);
+        System.out.println("set bean method called with name = " + name);
     }
 
     @PostConstruct
