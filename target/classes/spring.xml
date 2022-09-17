@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<beans xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:context="http://www.springframework.org/schema/context"
+
+       xmlns="http://www.springframework.org/schema/beans"
+
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+       http://www.springframework.org/schema/beans/spring-beans.xsd
+       http://www.springframework.org/schema/context
+       http://www.springframework.org/schema/context/spring-context.xsd">
+
+    <context:component-scan base-package="demo"/> <!-- tells spring that search in this base pkg,you'll get component-->
+
+    <!--<bean class="Demo.Doctor" id="doc">-->
+    <!--    <property name="qualification" value="MBBS"/>-->
+    <!--    <property name ="nurse" ref="nurse"/>-->
+    <!--       <constructor-arg value="MD"/>-->
+    <!--</bean>-->
+
+    <!--<bean class="Demo.Nurse" id="nurse" />-->
+
+</beans>
